@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/iconfont.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/libs/flexiable.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="./images/360截图18770525333019.png" alt="">
+        </header>
+        <main class="main">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                       <img src="./images/360截图176303288089117.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="main-hot">
+                <img src="./images/360截图17860604413490.png" alt="">
+                <!-- <dl>
+                    <dt>
+                        <img src="./images/360截图16720329046229.png" alt="">
+                    </dt>
+                    <dd>
+                        <img src="./images/360截图17120521192514.png" alt="">
+                    </dd>
+                </dl> -->
+            </div>
+            <div class="main-type">
+                <img src="./images/360截图17420922174542.png" alt="">
+            </div>
+        </main>
+        <footer class="footer">
+            <span><i class="iconfont icon-twitter2"></i>首页</span>
+            <span><i class="iconfont icon-taobao21"></i>消息</span>
+            <span><i class="iconfont icon-WIFI"></i>发现</span>
+            <span><i class="iconfont icon-xiaoxi2"></i>看房</span>
+            <span><i class="iconfont icon-gerenxinxi"></i>我</span>
+        </footer>
+    </div>
+    <script src="./js/libs/require.js"></script>
+    <script>
+        require(['./js/main'], function () {
+            require(['jquery', 'bscroll'], function ($, bscroll) {
+                console.log($)
+            })
+        })
+    </script>
+</body>
+
+</html>
